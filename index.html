@@ -2,34 +2,54 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Alexandru Leahovcenco | Audit & Accounting Consultant</title>
 <style>
-body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f4f7fb;color:#1f2937}
-header{background:#163a6b;color:#fff;padding:60px 20px;text-align:center}
-header h1{margin:0;font-size:42px}
-header p{font-size:20px;opacity:.95}
-.container{max-width:1100px;margin:auto;padding:30px 20px}
-.card{background:#fff;border-radius:12px;padding:25px;margin:20px 0;box-shadow:0 2px 10px rgba(0,0,0,.08)}
-h2{color:#163a6b;border-bottom:2px solid #e5e7eb;padding-bottom:8px}
-.timeline-item{margin-bottom:28px}
-.timeline-item h3{margin:0;color:#163a6b}
-.timeline-item span{color:#6b7280;font-size:14px}
-.badge{display:inline-block;background:#163a6b;color:#fff;padding:8px 14px;border-radius:20px;margin:5px;font-size:14px}
-.btn{display:inline-block;background:#163a6b;color:#fff;text-decoration:none;padding:12px 24px;border-radius:8px;margin-top:15px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Segoe UI,Arial,sans-serif;background:#eef3f8;color:#233;line-height:1.65}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.05;
+background:
+radial-gradient(circle at 20% 20%,#2b5ea8 2px,transparent 3px),
+radial-gradient(circle at 80% 60%,#2b5ea8 2px,transparent 3px),
+linear-gradient(90deg,#163a6b22 1px,transparent 1px),
+linear-gradient(#163a6b22 1px,transparent 1px);
+background-size:180px 180px,220px 220px,40px 40px,40px 40px;}
+header{background:linear-gradient(135deg,#163a6b,#2c66b6);color:#fff;padding:70px 20px;text-align:center}
+header h1{font-size:58px;font-weight:700}
+.subtitle{font-size:24px;margin:10px 0 18px}
+.tags{opacity:.95;font-size:18px}
+.btn{display:inline-block;margin:28px 0 18px;background:#fff;color:#163a6b;text-decoration:none;padding:15px 30px;border-radius:10px;font-weight:700}
+.qr{width:170px;height:170px;margin:10px auto;border-radius:12px;background:#fff;border:8px solid #fff;display:flex;align-items:center;justify-content:center;color:#888}
+.wrap{max-width:1100px;margin:auto;padding:35px 20px}
+.card{background:#fff;padding:28px;border-radius:14px;margin:24px 0;box-shadow:0 8px 24px rgba(0,0,0,.08)}
+h2{color:#163a6b;border-bottom:2px solid #e7edf6;padding-bottom:10px;margin-bottom:18px}
+.job{margin-bottom:24px}
+.job h3{color:#163a6b}
+.date{color:#666;font-size:14px;margin-bottom:6px}
+.badge{display:inline-block;background:#163a6b;color:#fff;padding:8px 14px;border-radius:20px;margin:6px}
+.contact{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.contact a{text-decoration:none;color:#fff;padding:14px;border-radius:10px;text-align:center;font-weight:700}
+.email{background:#d44638}.phone{background:#555}.linkedin{background:#0A66C2}.scholar{background:#1a73e8}.rg{background:#00a67e}
 footer{text-align:center;padding:30px;color:#666}
-@media(max-width:700px){header h1{font-size:30px}}
+@media(max-width:700px){header h1{font-size:38px}.subtitle{font-size:20px}.tags{font-size:16px}}
 </style>
 </head>
 <body>
 
 <header>
 <h1>Alexandru Leahovcenco</h1>
-<p>Audit & Accounting Consultant</p>
-<a class="btn" href="CV.pdf">Download CV (PDF)</a>
+<div class="subtitle">Audit &amp; Accounting Consultant</div>
+<div class="tags">Financial Audit • Accounting • Business Analysis • Information Systems • Digital Transformation</div>
+
+<a class="btn" href="CV.pdf">📄 Download CV</a>
+
+<div class="qr">
+<img src="qr.png" alt="QR" style="max-width:100%;max-height:100%">
+</div>
+<div>Scan to download CV</div>
 </header>
 
-<div class="container">
+<div class="wrap">
 
 <div class="card">
 <h2>About Me</h2>
@@ -39,39 +59,39 @@ footer{text-align:center;padding:30px;color:#666}
 <div class="card">
 <h2>Work Experience</h2>
 
-<div class="timeline-item">
-<h3>Audit & Accounting Consultant</h3>
-<span>September 2021 – Present | EuroPro-Audit SRL</span>
+<div class="job">
+<h3>Audit &amp; Accounting Consultant</h3>
+<div class="date">September 2021 – Present | EuroPro-Audit SRL</div>
 <p>Provide accounting services, participate in statutory and voluntary financial audits for private companies, public entities, and non-profit organizations, review accounting records and internal controls, prepare audit documentation, and advise clients on financial reporting, taxation, accounting information systems, and business process improvement.</p>
 </div>
 
-<div class="timeline-item">
+<div class="job">
 <h3>University Lecturer</h3>
-<span>September 2020 – August 2021 | Academy of Economic Studies of Moldova</span>
+<div class="date">September 2020 – August 2021 | Academy of Economic Studies of Moldova</div>
 <p>Delivered lectures in Business Informatics and Accounting Information Systems, supervised student research, and contributed to curriculum development and research in digital economy.</p>
 </div>
 
-<div class="timeline-item">
-<h3>Junior Auditor & Accounting Systems Consultant</h3>
-<span>February 2016 – August 2020 | EuroPro-Audit SRL</span>
+<div class="job">
+<h3>Junior Auditor &amp; Accounting Systems Consultant</h3>
+<div class="date">February 2016 – August 2020 | EuroPro-Audit SRL</div>
 <p>Provided accounting services, prepared financial statements, participated in financial audit engagements, evaluated internal controls, and supported optimization of accounting information systems.</p>
 </div>
 
-<div class="timeline-item">
+<div class="job">
 <h3>Senior Project Designer</h3>
-<span>August 2014 – February 2016 | FiscServInform</span>
+<div class="date">August 2014 – February 2016 | FiscServInform</div>
 <p>Designed government information systems supporting tax and customs administration, performed business analysis, requirements engineering, and technical documentation.</p>
 </div>
 
-<div class="timeline-item">
-<h3>Editorial & Localization Specialist</h3>
-<span>January 2014 – August 2015 | Fiscal Monitor</span>
+<div class="job">
+<h3>Editorial &amp; Localization Specialist</h3>
+<div class="date">January 2014 – August 2015 | Fiscal Monitor</div>
 <p>Managed accounting software publications and produced multilingual professional content.</p>
 </div>
 
-<div class="timeline-item">
+<div class="job">
 <h3>Coordinating Specialist</h3>
-<span>January 2013 – December 2013 | VamServInform</span>
+<div class="date">January 2013 – December 2013 | VamServInform</div>
 <p>Performed accounting activities, maintained accounting records, and supported accounting software administration.</p>
 </div>
 
@@ -82,7 +102,7 @@ footer{text-align:center;padding:30px;color:#666}
 <ul>
 <li>Master's Degree in Economic Sciences (Management / Business Administration), Moldova State University</li>
 <li>Master's Degree in Information Management, Academy of Economic Studies of Moldova</li>
-<li>Doctoral Studies (not completed) – Digital Economy and Enterprise Security</li>
+<li>Doctoral Studies – Digital Economy and Enterprise Security</li>
 <li>Bachelor's Degree in Computer Science</li>
 <li>Secondary Specialized Education – Accountant</li>
 </ul>
@@ -90,7 +110,6 @@ footer{text-align:center;padding:30px;color:#666}
 
 <div class="card">
 <h2>Core Competencies</h2>
-<div>
 <span class="badge">Financial Audit</span>
 <span class="badge">Accounting</span>
 <span class="badge">IFRS</span>
@@ -101,26 +120,23 @@ footer{text-align:center;padding:30px;color:#666}
 <span class="badge">Digital Transformation</span>
 <span class="badge">AI</span>
 </div>
-</div>
 
 <div class="card">
 <h2>Publications</h2>
-<p><strong>22</strong> peer-reviewed publications<br><strong>35+</strong> Google Scholar citations</p>
+<p><b>22</b> peer-reviewed publications<br><b>35+</b> Google Scholar citations</p>
 </div>
 
 <div class="card">
 <h2>Contact</h2>
-<p>Email: alexandru.leahovcenco@usm.md</p>
-<p>Phone: +373 69094528</p>
-<p>LinkedIn: https://www.linkedin.com/in/alexandru-leahovcenco-b889a03b1/</p>
-<p>Google Scholar & ResearchGate available in CV.</p>
+<div class="contact">
+<a class="email" href="mailto:alexandru.leahovcenco@usm.md">📧 Email</a>
+<a class="phone" href="tel:+37369094528">📞 Phone</a>
+<a class="linkedin" href="https://www.linkedin.com/in/alexandru-leahovcenco-b889a03b1/" target="_blank">💼 LinkedIn</a>
+<a class="scholar" href="https://scholar.google.com/citations?hl=ru&user=tctZRDsAAAAJ" target="_blank">🎓 Google Scholar</a>
+<a class="rg" href="https://www.researchgate.net/profile/Alexandru-Leahovcenco" target="_blank">📚 ResearchGate</a>
+</div>
 </div>
 
 </div>
-
-<footer>
-© Alexandru Leahovcenco
-</footer>
-
-</body>
-</html>
+<footer>© Alexandru Leahovcenco</footer>
+</body></html>
